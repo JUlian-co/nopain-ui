@@ -1,0 +1,36 @@
+{
+  "name": "@nopain-ui/react",
+  "version": "1.0.5",
+  "description": "Hard to code react components made easy.",
+  "keywords": [
+    "ui",
+    "easy",
+    "simple",
+    "gradient",
+    "text",
+    "underline",
+    "gradient-underline"
+  ],
+  "homepage": "https://github.com/JUlian-co/nopain-ui#readme",
+  "bugs": {
+    "url": "https://github.com/JUlian-co/nopain-ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUlian-co/nopain-ui.git"
+  },
+  "license": "MIT",
+  "author": "Julian",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "esbuild src/index.js --outfile=dist/index.js --format=esm --bundle --loader:.jsx=jsx"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  },
+  "dependencies": {
+    "react": "^19.1.1"
+  }
+}
