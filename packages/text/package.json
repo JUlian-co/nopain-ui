@@ -1,0 +1,36 @@
+{
+  "name": "@nopain-ui/text",
+  "version": "1.0.3",
+  "description": "React component for gradient text with optional underline.",
+  "keywords": [
+    "ui",
+    "easy",
+    "simple",
+    "gradient",
+    "text",
+    "underline",
+    "gradient-underline"
+  ],
+  "homepage": "https://github.com/JUlian-co/simple-kit#readme",
+  "bugs": {
+    "url": "https://github.com/JUlian-co/simple-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUlian-co/simple-kit.git"
+  },
+  "license": "MIT",
+  "author": "Julian",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "esbuild src/index.js --outfile=dist/index.js --format=esm --bundle --loader:.jsx=jsx"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  },
+  "dependencies": {
+    "react": "^19.1.1"
+  }
+}
